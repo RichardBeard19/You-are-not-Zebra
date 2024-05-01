@@ -1,0 +1,592 @@
+[gd_scene load_steps=10 format=3 uid="uid://c78s5ltne2jgj"]
+
+[ext_resource type="Texture2D" uid="uid://dde16o7ongaa3" path="res://Brown.png" id="1_ubcw1"]
+[ext_resource type="Texture2D" uid="uid://lk112h3vs1ks" path="res://Terrain (16x16).png" id="2_eggxt"]
+[ext_resource type="Texture2D" uid="uid://bpt8qv2dl55f7" path="res://window.webp" id="3_1gl1f"]
+[ext_resource type="Texture2D" uid="uid://uvn7xhmue3bw" path="res://entrance 3.jpg" id="4_cw2ug"]
+[ext_resource type="Texture2D" uid="uid://bpf1btvwtlfc0" path="res://Window with air conditionor.png" id="5_r1ewc"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ea0pd"]
+texture = ExtResource("2_eggxt")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ybtlk"]
+tile_size = Vector2i(23, 16)
+sources/1 = SubResource("TileSetAtlasSource_ea0pd")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqk5s"]
+texture = ExtResource("2_eggxt")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_34nfj"]
+sources/1 = SubResource("TileSetAtlasSource_yqk5s")
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(2, 0)
+
+[node name="Brown" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(4611, 2354)
+scale = Vector2(107.859, 71.625)
+texture = ExtResource("1_ubcw1")
+
+[node name="TileMap" type="TileMap" parent="Brown"]
+tile_set = SubResource("TileSet_ybtlk")
+rendering_quadrant_size = 17
+format = 2
+layer_0/tile_data = PackedInt32Array(131070, 1114113, 6, 65534, 1114113, 6, -2, 1114113, 5, 65536, 1179649, 6, 0, 1179649, 6, 1, 1114113, 5, 65537, 1114113, 6, -65535, 1114113, 4, -65538, 1114113, 4, -131071, 1114113, 4, 131071, 1245185, 5, 65535, 1245185, 5, -1, 1245185, 5)
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Window" type="Sprite2D" parent="."]
+position = Vector2(2884, 1767.88)
+scale = Vector2(1.94271, 2.42552)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window2" type="Sprite2D" parent="."]
+position = Vector2(464.5, 544)
+scale = Vector2(1.83036, 1.97917)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window3" type="Sprite2D" parent="."]
+position = Vector2(1347.5, 1604.5)
+scale = Vector2(1.71726, 1.73958)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window4" type="Sprite2D" parent="."]
+position = Vector2(522, 2568.5)
+scale = Vector2(1.94643, 2.00625)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window5" type="Sprite2D" parent="."]
+position = Vector2(1347.5, 2575.5)
+scale = Vector2(1.94345, 2.03125)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window6" type="Sprite2D" parent="."]
+position = Vector2(1341.5, 563)
+scale = Vector2(1.68155, 1.84583)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window7" type="Sprite2D" parent="."]
+position = Vector2(477, 1585)
+scale = Vector2(1.75595, 1.71458)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window8" type="Sprite2D" parent="."]
+position = Vector2(3703, 2537.63)
+scale = Vector2(2.05952, 2.61406)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window9" type="Sprite2D" parent="."]
+position = Vector2(2890, 2968.38)
+scale = Vector2(2.13393, 2.6151)
+texture = ExtResource("3_1gl1f")
+
+[node name="Entrance3" type="Sprite2D" parent="."]
+position = Vector2(903, 4029.75)
+scale = Vector2(1.28, 1.13529)
+texture = ExtResource("4_cw2ug")
+
+[node name="Entrance4" type="Sprite2D" parent="."]
+position = Vector2(3360.5, 4118.75)
+scale = Vector2(1.102, 1.08182)
+texture = ExtResource("4_cw2ug")
+
+[node name="Entrance5" type="Sprite2D" parent="."]
+position = Vector2(5868, 4068)
+scale = Vector2(1.28, 1.1631)
+texture = ExtResource("4_cw2ug")
+
+[node name="Entrance6" type="Sprite2D" parent="."]
+position = Vector2(8421, 4004)
+scale = Vector2(1.43, 1.24439)
+texture = ExtResource("4_cw2ug")
+
+[node name="WindowWithAirConditionor" type="Sprite2D" parent="."]
+position = Vector2(7931.5, 740.5)
+scale = Vector2(2.1814, 1.89437)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor2" type="Sprite2D" parent="."]
+position = Vector2(7926, 1687)
+scale = Vector2(2.12093, 1.74413)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor3" type="Sprite2D" parent="."]
+position = Vector2(8807, 753.5)
+scale = Vector2(2.06512, 1.83333)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor4" type="Sprite2D" parent="."]
+position = Vector2(8808, 1706)
+scale = Vector2(2.18605, 1.71362)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor5" type="Sprite2D" parent="."]
+position = Vector2(7963.63, 2734.75)
+scale = Vector2(2.47791, 1.89319)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor6" type="Sprite2D" parent="."]
+position = Vector2(8852, 2722)
+scale = Vector2(2.35814, 1.83568)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor7" type="Sprite2D" parent="."]
+position = Vector2(5278, 2855)
+scale = Vector2(2.3, 1.80516)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor8" type="Sprite2D" parent="."]
+position = Vector2(5912.5, 2855.5)
+scale = Vector2(2.1814, 1.80516)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor9" type="Sprite2D" parent="."]
+position = Vector2(6490.75, 2868.5)
+scale = Vector2(1.64884, 1.56573)
+texture = ExtResource("5_r1ewc")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 8025.0
+offset_top = 25.0
+offset_right = 18072.0
+offset_bottom = 4611.0
+
+[node name="Brown2" type="Sprite2D" parent="."]
+position = Vector2(13605, 2349)
+scale = Vector2(138.5, 71.2344)
+texture = ExtResource("1_ubcw1")
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2(30, 30)
+tile_set = SubResource("TileSet_34nfj")
+rendering_quadrant_size = 17
+format = 2
+layer_0/tile_data = PackedInt32Array(458864, 917505, 8, 458863, 917505, 8, 458862, 917505, 8, 458861, 917505, 8, 458860, 917505, 8, 458859, 917505, 8, 458858, 917505, 8, 458857, 917505, 8, 458856, 917505, 8, 458855, 917505, 8, 458854, 917505, 8, 458853, 917505, 8, 458852, 917505, 8, 458851, 917505, 8, 458850, 917505, 8, 458849, 917505, 8, 458848, 917505, 8, 458847, 917505, 8, 458846, 917505, 8, 458845, 917505, 8, 458844, 917505, 8, 458843, 917505, 8, 458842, 917505, 8, 458841, 917505, 8, 458840, 917505, 8, 393324, 917505, 8, 393322, 917505, 8, 327786, 917505, 8, 262250, 917505, 8, 196714, 917505, 8, 131178, 917505, 8, 131180, 917505, 8, 196716, 917505, 8, 262252, 917505, 8, 327788, 917505, 8, 65642, 917505, 8, 106, 917505, 8, 108, 917505, 8, 65644, 917505, 8, 90, 917505, 8, 65626, 917505, 8, 131162, 917505, 8, 196698, 917505, 8, 262234, 917505, 8, 327770, 917505, 8, 393306, 917505, 8, 92, 917505, 8, 65628, 917505, 8, 131164, 917505, 8, 196700, 917505, 8, 262236, 917505, 8, 327772, 917505, 8, 393308, 917505, 8, 65629, 917505, 8, 131165, 917505, 8, 131166, 917505, 8, 196702, 917505, 8, 196703, 917505, 8, 196704, 917505, 8, 196705, 917505, 8, 196706, 917505, 8, 196707, 917505, 8, 196708, 917505, 8, 196709, 917505, 8, 196710, 917505, 8, 196711, 917505, 8, 196712, 917505, 8, 131176, 917505, 8, 65641, 917505, 8, 105, 917505, 8, 131177, 917505, 8, 458839, 917505, 8, 196670, 1179649, 4, 196671, 1245185, 4, 196673, 1376257, 4, 327742, 1114113, 5, 655422, 1179649, 4, 786494, 1179649, 4, 786497, 1245185, 4, 720958, 1179649, 4, 852030, 1179649, 4, 852031, 1114113, 5, 852032, 1179649, 5, 917566, 1179649, 4, 917567, 1114113, 4, 983102, 1179649, 4, 983104, 1179649, 5, 1048639, 1114113, 4, 1048640, 1179649, 4, 1114174, 1179649, 4, 1114177, 1245185, 5, 1245247, 1245185, 4, 1245248, 1310721, 4, 1245249, 1376257, 4, 1179710, 1179649, 4, 1179711, 1245185, 4, 1179712, 1179649, 4, 1179713, 1245185, 4, 1310782, 1179649, 4, 1310783, 1245185, 4, 1310784, 1179649, 4, 1310785, 1245185, 4, 1376318, 1179649, 4, 1376319, 1245185, 4, 1376320, 1179649, 4, 1376321, 1245185, 4, 1441854, 1179649, 4, 1441855, 1245185, 4, 1441856, 1179649, 4, 1441857, 1245185, 4, 1507390, 1179649, 4, 1507391, 1245185, 4, 1507392, 1179649, 4, 1507393, 1245185, 4, 1572926, 1179649, 4, 1572927, 1245185, 4, 1572928, 1179649, 4, 1572929, 1245185, 4, 1638462, 1179649, 4, 1638463, 1245185, 4, 1638464, 1179649, 4, 1638465, 1245185, 4, 1703998, 1179649, 4, 1703999, 1245185, 4, 1704000, 1179649, 4, 1704001, 1245185, 4, 1769534, 1179649, 4, 1769535, 1245185, 4, 1769536, 1179649, 4, 1769537, 1245185, 4, 1835070, 1179649, 4, 1835071, 1245185, 4, 1835072, 1179649, 4, 1835073, 1245185, 4, 1835074, 1310721, 4, 1835075, 1376257, 4, 1835076, 1179649, 4, 1835077, 1245185, 4, 1835078, 1310721, 4, 1835079, 1114113, 5, 393287, 1310721, 4, 589894, 1245185, 4, 589895, 1310721, 4, 655428, 1179649, 4, 655429, 1245185, 4, 655431, 1310721, 4, 852038, 1310721, 5, 917573, 1245185, 4, 983110, 1310721, 5, 1048646, 1245185, 5, 1114180, 1179649, 4, 1114181, 1245185, 4, 1114182, 1310721, 4, 1114183, 1376257, 4, 1179716, 1179649, 4, 1179717, 1245185, 4, 1179718, 1310721, 4, 1179719, 1376257, 4, 1245252, 1179649, 4, 1245253, 1245185, 4, 1245254, 1310721, 4, 1245255, 1376257, 4, 1310788, 1179649, 4, 1310789, 1245185, 4, 1310790, 1310721, 4, 1310791, 1376257, 4, 1376324, 1179649, 4, 1376325, 1245185, 4, 1376326, 1310721, 4, 1376327, 1376257, 4, 1441860, 1179649, 4, 1441861, 1245185, 4, 1441862, 1310721, 4, 1441863, 1376257, 4, 1507396, 1179649, 4, 1507397, 1245185, 4, 1507398, 1310721, 4, 1507399, 1376257, 4, 1572932, 1179649, 4, 1572933, 1245185, 4, 1572934, 1310721, 4, 1572935, 1376257, 4, 1638468, 1179649, 4, 1638469, 1245185, 4, 1638470, 1310721, 4, 1638471, 1376257, 4, 1704004, 1179649, 4, 1704005, 1245185, 4, 1704006, 1310721, 4, 1704007, 1376257, 4, 1769540, 1179649, 4, 1769541, 1245185, 4, 1769542, 1310721, 4, 1769543, 1114113, 4, 1769538, 1310721, 4, 1769539, 1376257, 4, 1704002, 1310721, 4, 1704003, 1376257, 4, 1638466, 1310721, 4, 1638467, 1376257, 4, 1572930, 1310721, 4, 1572931, 1376257, 4, 1507394, 1310721, 4, 1507395, 1376257, 4, 1441858, 1310721, 4, 1441859, 1376257, 4, 1376322, 1310721, 4, 1376323, 1376257, 4, 1310786, 1310721, 4, 1310787, 1376257, 4, 1245250, 1310721, 4, 1245251, 1376257, 4, 1179714, 1310721, 4, 1179715, 1376257, 4, 1114178, 1310721, 5, 1048643, 1376257, 4, 983106, 1310721, 5, 786498, 1310721, 4, 786499, 1114113, 4, 655427, 1114113, 4, 1245246, 1179649, 4, 917575, 1310721, 5, 983111, 1310721, 4, 1048647, 1310721, 5, 327748, 1245185, 5, 327749, 1310721, 5, 196629, 1114113, 5, 262165, 1114113, 5, 196630, 1179649, 5, 262166, 1179649, 5, 196631, 1245185, 5, 262167, 1245185, 5, 196632, 1310721, 5, 262168, 1310721, 5, 327701, 1114113, 4, 393237, 1114113, 5, 327702, 1179649, 4, 393238, 1179649, 5, 327703, 1245185, 4, 393239, 1245185, 5, 327704, 1310721, 4, 393240, 1310721, 5, 458773, 1114113, 4, 524309, 1114113, 5, 458774, 1179649, 4, 524310, 1179649, 5, 458775, 1245185, 4, 524311, 1245185, 5, 458776, 1310721, 4, 524312, 1310721, 5, 131093, 1114113, 4, 131094, 1179649, 4, 131095, 1245185, 4, 131096, 1310721, 4, 65557, 1114113, 5, 65558, 1179649, 5, 65559, 1245185, 5, 65560, 1310721, 5, 458779, 1114113, 4, 524315, 1114113, 5, 458780, 1179649, 4, 524316, 1179649, 5, 458781, 1245185, 4, 524317, 1245185, 5, 458782, 1310721, 4, 524318, 1310721, 5, 327707, 1114113, 4, 393243, 1114113, 5, 327708, 1179649, 4, 393244, 1179649, 5, 327709, 1245185, 4, 393245, 1245185, 5, 327710, 1310721, 4, 393246, 1310721, 5, 196635, 1114113, 4, 262171, 1114113, 5, 196636, 1179649, 4, 262172, 1179649, 5, 196637, 1245185, 4, 262173, 1245185, 5, 196638, 1310721, 4, 262174, 1310721, 5, 262177, 1114113, 4, 327713, 1245185, 5, 262178, 1114113, 4, 327714, 1310721, 5, 393249, 1245185, 4, 458785, 1114113, 4, 393250, 1310721, 4, 458786, 1114113, 4, 524321, 1114113, 4, 524322, 1114113, 4, 131101, 1310721, 4, 65565, 1310721, 4, 327716, 1114113, 4, 262180, 1114113, 4, 393252, 1114113, 4, 393251, 1114113, 4, 327715, 1114113, 4, 262179, 1114113, 4, 458787, 1114113, 4, 458788, 1114113, 4, 524324, 1114113, 4, 524323, 1114113, 4, 196642, 1114113, 4, 23, 1114113, 4)
+
+[node name="Window10" type="Sprite2D" parent="."]
+position = Vector2(10461, 1212)
+texture = ExtResource("3_1gl1f")
+
+[node name="WindowWithAirConditionor10" type="Sprite2D" parent="."]
+position = Vector2(11287, 1657)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor11" type="Sprite2D" parent="."]
+position = Vector2(10321, 3574)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor12" type="Sprite2D" parent="."]
+position = Vector2(10804, 3561)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor13" type="Sprite2D" parent="."]
+position = Vector2(11274, 3587)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor14" type="Sprite2D" parent="."]
+position = Vector2(11756, 3587)
+texture = ExtResource("5_r1ewc")
+
+[node name="Window11" type="Sprite2D" parent="."]
+position = Vector2(10360, 2622)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window12" type="Sprite2D" parent="."]
+position = Vector2(10804, 2622)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window13" type="Sprite2D" parent="."]
+position = Vector2(11287, 2660)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window14" type="Sprite2D" parent="."]
+position = Vector2(11756, 2634)
+texture = ExtResource("3_1gl1f")
+
+[node name="WindowWithAirConditionor15" type="Sprite2D" parent="."]
+position = Vector2(10791, 1644)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor16" type="Sprite2D" parent="."]
+position = Vector2(10296, 1644)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor17" type="Sprite2D" parent="."]
+position = Vector2(11782, 1669)
+texture = ExtResource("5_r1ewc")
+
+[node name="Window15" type="Sprite2D" parent="."]
+position = Vector2(11274, 1161)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window16" type="Sprite2D" parent="."]
+position = Vector2(16614, 2587)
+scale = Vector2(2.32143, 1.65)
+texture = ExtResource("3_1gl1f")
+
+[node name="Window17" type="Sprite2D" parent="."]
+position = Vector2(11744, 717)
+texture = ExtResource("3_1gl1f")
+
+[node name="Entrance7" type="Sprite2D" parent="."]
+position = Vector2(10817, 3854)
+texture = ExtResource("4_cw2ug")
+
+[node name="WindowWithAirConditionor18" type="Sprite2D" parent="."]
+position = Vector2(13323.8, 1872)
+scale = Vector2(1.27674, 1.22535)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor19" type="Sprite2D" parent="."]
+position = Vector2(14330.8, 1889)
+scale = Vector2(1.16512, 1.14085)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor20" type="Sprite2D" parent="."]
+position = Vector2(13833, 1859)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor21" type="Sprite2D" parent="."]
+position = Vector2(13342, 2555)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor22" type="Sprite2D" parent="."]
+position = Vector2(13821, 2555)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor23" type="Sprite2D" parent="."]
+position = Vector2(14349, 2555)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor24" type="Sprite2D" parent="."]
+position = Vector2(14708, 1895)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor25" type="Sprite2D" parent="."]
+position = Vector2(14732, 2567)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor26" type="Sprite2D" parent="."]
+position = Vector2(13354, 3154)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor27" type="Sprite2D" parent="."]
+position = Vector2(13833, 3130)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor28" type="Sprite2D" parent="."]
+position = Vector2(14373, 3130)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor29" type="Sprite2D" parent="."]
+position = Vector2(14756, 3142)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor30" type="Sprite2D" parent="."]
+position = Vector2(13342, 3669)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor31" type="Sprite2D" parent="."]
+position = Vector2(13845, 3669)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor32" type="Sprite2D" parent="."]
+position = Vector2(14373, 3657)
+texture = ExtResource("5_r1ewc")
+
+[node name="WindowWithAirConditionor33" type="Sprite2D" parent="."]
+position = Vector2(14768, 3705)
+texture = ExtResource("5_r1ewc")
+
+[node name="Entrance8" type="Sprite2D" parent="."]
+position = Vector2(16614, 3837)
+texture = ExtResource("4_cw2ug")
